@@ -5,11 +5,13 @@
 
   
 }
-
+html { overflow: hidden; height: 100%; }
 body {
   padding-top: 70px;
   padding-bottom: 100px;
   font-family: "Caviar dreams";
+  overflow: auto; 
+  height: 100%;
 }
 
 
