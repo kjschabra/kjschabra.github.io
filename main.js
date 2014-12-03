@@ -27,9 +27,11 @@ $("document").ready(function(e){
 		$("ul.navbar-nav > li").eq(0).addClass('active');
 	});
 
-	$('html').on("mousewheel", function() {
+	$('body').on("scroll", function() {
+        console.log("hello there");
         var val = $(document).scrollTop();
         var x = 200;
+
         if (val < $("div.home").position().top - x){
         	$("ul.navbar-nav > li").removeClass("active");
         	$("ul.navbar-nav > li").eq(0).addClass("active");
@@ -58,4 +60,3 @@ $("document").ready(function(e){
     });
 
 });
-
