@@ -26,7 +26,7 @@ div#maincontainer{
 
 #navigation .navbar-default{
   background-image: none;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1.0);
 }
 
 #navigation a.navbar-brand{
