@@ -109,19 +109,27 @@ div#second-slide {
   background-color: #FFF;
   height:500px;
 }
-  div#slideshow div#second div.carousel-caption img{
+div#third-slide {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: url('images/glow-background-3s.png') center fixed no-repeat;
+  background-color: #FFF;
+  height:500px;
+}
+  /*div#slideshow div#second div.carousel-caption img{
     margin-left:92%;
-
-  }
+  }*/
   div#slideshow div#second div.carousel-caption h1 {
     font-size: 3.0em;
-    color: #E9118C;
+    color: #333333;
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
     padding: 0;
     text-shadow:none;
-    text-align: right;
+    text-align: left;
   }
 
 div#slideshow div.carousel-caption{
@@ -152,9 +160,9 @@ div#slideshow div.carousel-caption{
   div#slideshow div.carousel-caption a#learn{
     font-size: 2.0em;
     background-image: none;
-    background-color: rgba(233, 17, 140, 0.6);
+    background-color: rgba(0, 153, 0, 0.6);
     border-radius: 10px;
-    border:1px solid rgba(233, 17, 140, 1.0);
+    border:1px solid rgba(0, 153, 0, 1.0);
     -webkit-transition: background-color 150ms ease-out 200ms;
     -moz-transition: background-color 150ms ease-out 200ms;
     -o-transition:background-color 150ms ease-out 200ms;
@@ -343,7 +351,13 @@ text-align: center;
 padding-top: 150px;
 }
 .col-md-12 {
-width: 50%;
+width: 100%;
+}
+.carousel-control.left {
+ margin-left:40px;
+}
+.carousel-control.right {
+ margin-right:40px;
 }
 /* GLOBAL STYLES
 -------------------------------------------------- */
