@@ -180,12 +180,18 @@ div#title {
     font-size: 10em;
     color: #E9118C;
     font-weight: bolder;
-    text-align: right;
+    text-align: center;
+    padding-bottom: 3%;
   }
   div#title div#content p{
-    text-align: justify;
+    text-align: center;
     color: #333;
-    font-size: 2.5em;
+    font-size: 2em;
+  }
+  div#title div#content i{
+    font-size: 13.0em;
+    padding-bottom: 5%;
+    color: #E9118C;
   }
   div#title div#image img {
     background: rgba(255, 255, 255, 0.6);
@@ -272,7 +278,6 @@ div#title {
   }
 div#ourstory {
   opacity: 0.1;
-  padding:5% 0;
 }
   div#ourstory div#validation-board img{
     -webkit-transition: opacity 150ms ease-out 200ms;
@@ -300,8 +305,8 @@ div#customer {
   opacity: 0.1;
  
 }
-  div#customer div{
-    margin-top: 4%;
+  div#customer div.opinions div{
+    padding-top: 1%;
   }
   div#customer p{
     font-size: 2em;
