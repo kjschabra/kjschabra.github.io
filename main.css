@@ -109,6 +109,7 @@ div#second-slide {
   background-color: #FFF;
   height:500px;
 }
+ 
 div#third-slide {
   background-size: cover;
   -webkit-background-size: cover;
@@ -156,6 +157,10 @@ div#slideshow div.carousel-caption{
     color: #cccccc;
     letter-spacing: 2px;
     text-shadow:none;
+  }
+  div#slideshow div#second div.carousel-caption  p{
+    color: #FFF;
+    text-transform: uppercase;
   }
   div#slideshow div.carousel-caption a#learn{
     font-size: 2.0em;
