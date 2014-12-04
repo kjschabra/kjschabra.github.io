@@ -93,17 +93,19 @@ div#slideshow ol.carousel-indicators li{
 }
 div#first-slide {
   background-size: cover;
-  background: url('images/glow-background-1.png') center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: url('images/glow-background-1s.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
 div#second-slide {
   background-size: cover;
-  background: url('images/glow-background-2.png') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
+  background: url('images/glow-background-2s.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
@@ -131,8 +133,8 @@ div#slideshow div.carousel-caption{
     margin-left:42px;
   }
   div#slideshow div.carousel-caption h1 {
-    font-size: 6.0em;
-    color: #E9118C;
+    font-size: 4.0em;
+    color: #ffffff;
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
@@ -143,7 +145,7 @@ div#slideshow div.carousel-caption{
     font-size: 2.0em;
     font-weight: lighter;
     font-style: italic;
-    color: #E9118C;
+    color: #cccccc;
     letter-spacing: 2px;
     text-shadow:none;
   }
