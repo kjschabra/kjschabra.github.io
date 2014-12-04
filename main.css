@@ -162,7 +162,7 @@ div#slideshow div.carousel-caption{
     background-image: none;
     background-color: rgba(0, 153, 0, 0.6);
     border-radius: 10px;
-    border:1px solid rgba(0, 153, 0, 1.0);
+    border:0px solid rgba(0, 153, 0, 1.0);
     -webkit-transition: background-color 150ms ease-out 200ms;
     -moz-transition: background-color 150ms ease-out 200ms;
     -o-transition:background-color 150ms ease-out 200ms;
@@ -231,9 +231,9 @@ div#title {
   div#title div#content2 div#left-buy a#pre-order {
     font-size: 4.0em;
     background-image: none;
-    background-color: rgba(233, 17, 140, 0.6);
+    background-color: rgba(0, 153, 0, 0.6);
     border-radius: 10px;
-    border:1px solid rgba(233, 17, 140, 1.0);
+    border:0px solid rgba(0, 153, 0, 1.0);
     -webkit-transition: background-color 150ms ease-out 200ms;
     -moz-transition: background-color 150ms ease-out 200ms;
     -o-transition:background-color 150ms ease-out 200ms;
@@ -352,6 +352,15 @@ padding-top: 150px;
 }
 .col-md-12 {
 width: 100%;
+}
+.col-md-13 {
+max-width:750px;
+margin:0 auto;
+}
+.col-md-7 {
+width: 100%;
+text-align: center;
+margin:0 auto;
 }
 .carousel-control.left {
  margin-left:40px;
