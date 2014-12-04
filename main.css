@@ -96,7 +96,7 @@ div#first-slide {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: url('images/glow-background-1s.png') center fixed no-repeat;
+  background: url('images/glow-background-1s2.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
@@ -105,7 +105,7 @@ div#second-slide {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: url('images/glow-background-2s.png') center fixed no-repeat;
+  background: url('images/glow-background-2s2.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
@@ -115,7 +115,7 @@ div#third-slide {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: url('images/glow-background-3s.png') center fixed no-repeat;
+  background: url('images/glow-background-3s2.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
