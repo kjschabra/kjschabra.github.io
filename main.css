@@ -93,13 +93,13 @@ div#slideshow ol.carousel-indicators li{
 }
 div#first-slide {
   background-size: cover;
-  background: url('images/titlescreen.png') center fixed no-repeat;
+  background: url('images/glow-background-1.png') center fixed no-repeat;
   background-color: #FFF;
   height:500px;
 }
 div#second-slide {
   background-size: cover;
-  background: url('images/braceletnew_1.jpg') no-repeat fixed;
+  background: url('images/glow-background-1.png') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
